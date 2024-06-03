@@ -3,7 +3,9 @@
 	"version": "1.0.0",
 	"main": "index.js",
 	"scripts": {
-		"build": "esbuild src/index.ts --platform=node --bundle --outdir=dist"
+		"build": "esbuild src/index.ts --platform=node --bundle --outdir=dist",
+		"dev": "node dist/index.js",
+		"tsnode": "ts-node src/index.ts"
 	},
 	"keywords": [],
 	"author": "",

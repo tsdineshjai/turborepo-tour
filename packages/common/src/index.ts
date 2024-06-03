@@ -1,2 +1,3 @@
-export const myaim =
-	"relentless in my pursuit and not to waste a single second";
+export const NAME = "d tanishka sri";
+
+export const URL = "www.tanishkasri.com";
